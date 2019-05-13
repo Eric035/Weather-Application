@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NAV</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Weather</a></li>
+            </ul>   
+        </nav>
+        </div>
+    </header>
+
+    <div class="Location">
+        <h1 class="Location-Timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="Temperature">
+        <div class="degree-section">
+            <h2 class="Temperature-degree">N/A</h2>
+            <span>°F</span>
+        </div>
+        <div class="Temperature-description">Summary</div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+</body>
+</html>
